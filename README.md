@@ -10,7 +10,7 @@ Manage interior and exterior parts, track sales, watch stock levels and see prof
 ![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-Build-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 
-<img src="screenshots/dashboard.png" alt="Inventory dashboard" width="85%">
+<img src="src/main/img/dashboard.png" alt="Inventory dashboard" width="85%">
 
 </div>
 
@@ -126,23 +126,23 @@ All amounts are shown in **Rs**.
 
 <table>
   <tr>
-    <td align="center"><b>Login</b><br><img src="screenshots/login.png" alt="Login screen"></td>
-    <td align="center"><b>Dashboard</b><br><img src="screenshots/dashboard.png" alt="Dashboard"></td>
+    <td align="center"><b>Login</b><br><img src="src/main/img/login.png" alt="Login screen"></td>
+    <td align="center"><b>Dashboard</b><br><img src="src/main/img/dashboard.png" alt="Dashboard"></td>
   </tr>
   <tr>
-    <td align="center"><b>Interior inventory</b> (Exterior has the same layout)<br><img src="screenshots/interior-inventory.png" alt="Interior inventory"></td>
-    <td align="center"><b>Finance / sales entry</b><br><img src="screenshots/finance.png" alt="Finance"></td>
+    <td align="center"><b>Interior inventory</b> (Exterior has the same layout)<br><img src="src/main/img/interior-inventory.png" alt="Interior inventory"></td>
+    <td align="center"><b>Finance / sales entry</b><br><img src="src/main/img/finance.png" alt="Finance"></td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><b>To-do list</b><br><img src="screenshots/todo-list.png" alt="To-do list" width="50%"></td>
+    <td align="center" colspan="2"><b>To-do list</b><br><img src="src/main/img/todo-list.png" alt="To-do list" width="50%"></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td align="center"><b>In stock</b><br><img src="screenshots/items-in-stock.png" alt="Items in stock"></td>
-    <td align="center"><b>Low stock</b><br><img src="screenshots/items-low-stock.png" alt="Items low in stock"></td>
-    <td align="center"><b>Out of stock</b><br><img src="screenshots/items-out-of-stock.png" alt="Items out of stock"></td>
+    <td align="center"><b>In stock</b><br><img src="src/main/img/items-in-stock.png" alt="Items in stock"></td>
+    <td align="center"><b>Low stock</b><br><img src="src/main/img/items-low-stock.png" alt="Items low in stock"></td>
+    <td align="center"><b>Out of stock</b><br><img src="src/main/img/items-out-of-stock.png" alt="Items out of stock"></td>
   </tr>
 </table>
 
@@ -248,7 +248,6 @@ car-accessories-inventory-manager/
 ├── IAsql.sql                        # database schema + sample data
 ├── pom.xml
 ├── mvnw / mvnw.cmd / .mvn/          # Maven wrapper
-├── screenshots/                     # images used in this README
 └── src/main/
     ├── java/
     │   ├── module-info.java
@@ -266,7 +265,7 @@ car-accessories-inventory-manager/
     │       ├── Product_Database.java        # MySQL connection
     │       └── ProductModel / ProductSaleModel / Model_Class.java   # data models
     ├── resources/org/example/ia999/         # FXML screen layouts
-    └── img/                                 # logo and images
+    └── img/                                 # logo + screenshots used in this README
 ```
 
 ---
