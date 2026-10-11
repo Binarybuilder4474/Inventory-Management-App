@@ -274,7 +274,7 @@ car-accessories-inventory-manager/
 
 - **Sales do not reduce stock automatically.** Recording a sale in Finance only changes `Quantity_Sold`. Update the stock quantity in Interior or Exterior yourself.
 - **Keep product numbers unique across Interior and Exterior.** The Finance table uses the product number as its key, so a duplicate would make the add fail and roll back.
-- **Never commit your real database password.** Keep the placeholder in `Product_Database.java` on GitHub.
+
 
 ---
 
